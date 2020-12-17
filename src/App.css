@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-image: url('https://wallpapercave.com/wp/wp5220815.jpg');
   background-repeat: no-repeat;
@@ -26,13 +20,8 @@
 }
 
 .name {
-
+  color: white;
 }
-
-/* .name > img {
-  height: 50px;
-  width: 50px;
-} */
 
 .links {
   display: flex;
@@ -49,3 +38,4 @@
 .body {
   height: 200vh;
 }
+
