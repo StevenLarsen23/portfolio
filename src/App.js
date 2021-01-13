@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="name">
+        <div className="name-img">
           <img className='portfolio-img' src='images/StevenLarsen.jpg' alt="Steven Larsen's portfolio"/>
-          <h1>Steven Larsen</h1>
+          <h1 className='name'>Steven Larsen</h1>
         </div>
         <div className="links">
           <a className='github' href="https://github.com/StevenLarsen23">GitHub</a>
@@ -21,7 +21,7 @@ function App() {
         </div>
       </header>
       <main className="body">
-        <h1>
+        <h1 className='intro'>
           Here are some of the websites I've built and a brief explination:
         </h1>
         <br/>
@@ -37,6 +37,8 @@ function App() {
         <div className='images'>
         <img className='image' src="images/TWSS-1.jpg" alt="That's what she said 1"/>
         <img className='image' src="images/TWSS-2.jpg" alt="That's what she said 2"/>
+        <img className='mobile-image' src="images/Mobile-TWSS-1.jpg" alt="That's what she said mobile 1"/>
+        <img className='mobile-image' src="images/Mobile-TWSS-2.jpg" alt="That's what she said mobile 2"/>
         </div>
         <br/>
         <br/>
@@ -50,6 +52,8 @@ function App() {
         <div className='images'>
         <img className='image' src="images/HITW-1.png" alt='Hole in the wall 1'/>
         <img className='image' src="images/HITW-2.png" alt='Hole in the wall 2'/>
+        <img className='mobile-image' src="images/Mobile-HITW-1.jpg" alt="Hole in the wall mobile 1"/>
+        <img className='mobile-image' src="images/Mobile-HITW-2.png" alt="Hole in the wall mobile 2"/>
         </div>
         <br/>
         <br/>
