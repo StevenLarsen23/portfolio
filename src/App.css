@@ -1,17 +1,16 @@
 .App {
   text-align: center;
-  background-color: #293E6F;
+  
+  /* background-color: #293E6F; */
 }
 
 .App-header {
-  background-image: url('https://wallpapercave.com/wp/wp5220815.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #293E6F;
   position: sticky;
   top: 0;
   padding-left: 10px;
   padding-right: 10px;
-  max-height: 150px;
+  height: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,8 +20,9 @@
 }
 
 .portfolio-img {
-  height: 150px;
+  height: 135px;
   border-radius: 50%;
+  margin-top: 5px;
   margin-right: 10px;
 }
 
@@ -44,24 +44,68 @@
 }
 
 .website{
-  color: white;
-  text-decoration: underline white;
+  color: black;
+  text-decoration: underline black;
   flex-direction: row;
   margin: 10px;
 }
 
+.website-info{
+  color: black;
+  max-width: 800px;
+  margin-left: 29%;
+}
+
 .images {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image {
-  max-width: 40vw;
+  max-width: 65vw;
+  margin-bottom: 50px;
   
 }
 
 .body {
   height: auto;
-  color: white;
+  color: black;
 }
 
+@media (prefers-color-scheme: dark) {
+ 
+  .App {
+    background-color: black;
+  }
+  .website{
+    color: white;
+    text-decoration: underline white;
+  }
+  .website-info{
+    color: white;
+  }
+  .body {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .App {
+    width: 100vw;
+  }
+
+  .App-header {
+    max-height: 15vh;
+  }
+
+  .portfolio-img {
+    height: 12vh;
+    margin-top: 2vh;
+  }
+
+  .website-info{
+    max-width: 75vw;
+    margin-left: 12%;
+  }
+}

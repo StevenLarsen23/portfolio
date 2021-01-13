@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="name">
-          <img className='portfolio-img' src='images/StevenLarsen.jpg' alt="Steven Larsen's portfolio picture"/>
+          <img className='portfolio-img' src='images/StevenLarsen.jpg' alt="Steven Larsen's portfolio"/>
           <h1>Steven Larsen</h1>
         </div>
         <div className="links">
@@ -30,7 +30,8 @@ function App() {
         <a href='https://thatswhatshesaid.dev'>
           <h2 className='website'>That's What S/He Said</h2>
           </a> 
-        <p>That's What S/He Said is an app that lets the user easly add, search, access, and edit their favorite quotes; as well as find new quotes other users have posted.</p>
+          <br/>
+        <p className='website-info'>That's What S/He Said is an app that lets the user easly add, search, access, and edit their favorite quotes; as well as find new quotes other users have posted.</p>
         <br/>
         <br/>
         <div className='images'>
@@ -42,7 +43,8 @@ function App() {
         <a href='http://138.68.42.88:4000/'>
           <h2 className='website'>Hole In The Wall</h2>
           </a> 
-        <p>Hole In The Wall is an app where users can add or find great places to eat in every state. If you are traveling or just want to discover something new close to home rather then eat the same fast food again</p>
+          <br/>
+        <p className='website-info'>Hole In The Wall is an app where users can add or find great places to eat in every state. If you are traveling or just want to discover something new close to home rather then eat the same fast food again</p>
         <br/>
         <br/>
         <div className='images'>
