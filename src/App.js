@@ -35,10 +35,10 @@ function App() {
         <br/>
         <br/>
         <div className='images'>
-        <img className='image' src="images/TWSS-1.jpg" alt="That's what she said 1"/>
-        <img className='image' src="images/TWSS-2.jpg" alt="That's what she said 2"/>
-        <img className='mobile-image' src="images/Mobile-TWSS-1.jpg" alt="That's what she said mobile 1"/>
-        <img className='mobile-image' src="images/Mobile-TWSS-2.jpg" alt="That's what she said mobile 2"/>
+        <img className='image' src="images/TWSS-1.png" alt="That's what she said 1"/>
+        <img className='image' src="images/TWSS-2.png" alt="That's what she said 2"/>
+        <img className='mobile-image' src="images/Mobile-TWSS-1.png" alt="That's what she said mobile 1"/>
+        <img className='mobile-image' src="images/Mobile-TWSS-2.png" alt="That's what she said mobile 2"/>
         </div>
         <br/>
         <br/>
